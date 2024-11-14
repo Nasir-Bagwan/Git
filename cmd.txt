@@ -1,0 +1,9 @@
+ 75  rm -rf .git
+   76  git init
+   77  git add nasir.txt.txt
+   78  git commit -m "Frist Commit"
+   79  git branch -M main
+   80  git remote add origin https://github.com/Nasir-Bagwan/Nasir123.git
+   81  git config --global user.email "nasirbagwan92@gmail.com"
+   82  git config --global user.name "Nasir-Bagwan"
+   83  git push origin -u main
